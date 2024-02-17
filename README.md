@@ -40,14 +40,17 @@ While this plugin is fully compatible with an unmodified version of Jellyfin 10.
 Instructions on how to switch web interface versions are located [here](docs/web_interface.md).
 
 ### Step 2: Install the plugin
-1. Add this plugin repository to your server: `https://raw.githubusercontent.com/ConfusedPolarBear/intro-skipper/master/manifest.json`
-2. Install the Intro Skipper plugin from the General section
-3. Restart Jellyfin
-4. If you did not install the modified web interface, enable automatic skipping
+1. Add this plugin repository to your server:
+   ```
+   https://raw.githubusercontent.com/Koning3ton/intro-skipper/master/manifest.json
+   ```
+3. Install the Intro Skipper plugin from the General section
+4. Restart Jellyfin
+5. If you did not install the modified web interface, enable automatic skipping
     1. Go to Dashboard -> Plugins -> Intro Skipper
     2. Check "Automatically skip intros" and click Save
-5. Go to Dashboard -> Scheduled Tasks -> Analyze Episodes and click the play button
-6. After a season has completed analyzing, play some episodes from it and observe the results
+6. Go to Dashboard -> Scheduled Tasks -> Analyze Episodes and click the play button
+7. After a season has completed analyzing, play some episodes from it and observe the results
     1. Status updates are logged before analyzing each season of a show
 
 ## Installation instructions for MacOS
